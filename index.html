@@ -7,6 +7,7 @@
         <link rel="stylesheet" href="assets/css/style.css">     
         <script src="https://www.gstatic.com/firebasejs/5.5.0/firebase.js"></script>
         <script src="https://code.jquery.com/jquery.js"></script>
+        <script src="https://cdn.jsdelivr.net/momentjs/2.12.0/moment.min.js"></script>
         <script src="assets/js/app.js"></script>
 
     </head>
@@ -27,12 +28,15 @@
                 <div class="card-body">
                     <table class="table" id="train-table">
                         <thead>
-                        <tr scope="col">Train Name</tr>
-                        <tr scope="col">Destination</tr>
-                        <tr scope="col">Frequency(min)</tr>
-                        <tr scope="col">Next Arrival</tr>
-                        <tr scope="col">Minutes Away</tr>
+                            <tr>
+                            <th scope="col">Train Name</th>
+                            <th scope="col">Destination</th>
+                            <th scope="col">Frequency (min)</th>
+                            <th scope="col">Next Arrival</th>
+                            <th scope="col">Minutes Away</th>
+                            </tr>
                         </thead>
+
                     </table>
                 </div>
             </div>
